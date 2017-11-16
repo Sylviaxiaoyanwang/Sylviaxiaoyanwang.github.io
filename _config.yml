@@ -1,0 +1,27 @@
+# global settings
+title: "Xiaoyan's Page"
+description: "Xiaoyan is a healthcare data scientist based in NYC."
+permalink: pretty
+url: https://Sylviaxiaoyanwang.github.io
+relative_permalinks: false
+analytics_account: "UA-3769691-28"
+
+# build settings
+include: []
+exclude: []
+keep_files: []
+timezone: America/New_York
+markdown: kramdown
+plugins:
+  - jekyll-avatar
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+  - jekyll-coffeescript
+  - jekyll-sitemap
+
+sass:
+  style: :compressed
+  # Where you keep your scss files
+  sass_dir: assets/css/
+  # Where sass should look for other scss
+
